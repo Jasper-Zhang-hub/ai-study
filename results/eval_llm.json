@@ -1,0 +1,20 @@
+{
+  "model": "qwen-plus",
+  "n_samples": 100,
+  "zero_shot": {
+    "precision": 0.5733333333333334,
+    "recall": 0.4725274725274725,
+    "f1": 0.5180722891566265,
+    "tp": 129,
+    "pred_total": 225,
+    "gold_total": 273
+  },
+  "few_shot": {
+    "precision": 0.5188284518828452,
+    "recall": 0.4542124542124542,
+    "f1": 0.48437500000000006,
+    "tp": 124,
+    "pred_total": 239,
+    "gold_total": 273
+  }
+}
